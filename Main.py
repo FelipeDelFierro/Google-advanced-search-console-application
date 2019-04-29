@@ -1,12 +1,15 @@
+Python modules
 import time
-#Script files:
+import sys
+
+#Script modules:
 from Countries import GetCountry,countries
 from Dates import GetDate
 from Languages import GetLanguage, Languages
 from UrlBuilder import url_builder, url_builder_SpecificSite
 from Crawler import scraping
 from Export_csv import export_csv
-import sys
+
 totalUrlBuilder = []
 print (5 * "-" , "Welcome to the advanced Web search console. Just follow instrucions and enjoy !",5 * "-","\n")
 print ("Fist step : Choice your Country\n")
@@ -15,6 +18,7 @@ print ("Third step: Choice your Range of time to search\n")
 print ("Quarter step: Choice your keywords and badwords\n")
 print ("Fifth step: If there are results, go to folder where is this script and your csv file will be there with results\n")
 input("Press any key to start the game!...")
+
 #user parameters   
 country = GetCountry(countries)
 language = GetLanguage(Languages)
