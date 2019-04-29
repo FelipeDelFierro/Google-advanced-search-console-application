@@ -1,4 +1,4 @@
-# Google-advanced-search-console-application Python
+# Google-advanced-search and export results with Python
 Console app for get google results with an advanced search . Export results with a csv File.
 This app has been developed in python 3.7
 You must install these libraries: 
